@@ -26,4 +26,17 @@ sudo apt-get install git
  
  https://itsfoss.com/install-linux-in-virtualbox/
  
+ # Install libssl
  
+ ref this issue: https://github.com/rbenv/ruby-build/issues/1215
+ 
+```
+apt-get install libssl1.0-dev
+```
+
+# Install Ruby
+
+```
+rbenv install 2.1.10
+```
+
